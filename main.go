@@ -79,7 +79,7 @@ func main() {
 		fmt.Printf("Please access the following URL on your browser: %s\n", u)
 	}
 
-	fmt.Println("Waiting for OAuth2 calback...")
+	fmt.Println("Waiting for OAuth2 callback...")
 
 	t := <-c
 
